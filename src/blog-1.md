@@ -1,11 +1,11 @@
-## -----Typescript-----
+# Typescript
 TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript.
 
 
 
 ## The Benefits of Using TypeScript
 
-JavaScript is a flexible language, but because it doesn’t enforce types, it can be hard to know exactly what kind of data is being used at any given time.
+JavaScript is a flexible language, because it doesn’t enforce types, it can be hard to know exactly what kind of data is being used at any given time.
 
 In JavaScript, function parameters and variables don’t tell you what type of data they expect, so you either need to check the documentation or guess from the code itself.
 
@@ -15,7 +15,7 @@ For example, if you try to send a string to a function that expects a number, Ty
 
 
 
-## -----Types of Typescript-----
+## Types of Typescript
 There are many types of typescripts. The typeScript types can be divided into primitive and non-primitive categories.
 
 ### Primitive Types in TypeScript
@@ -32,6 +32,9 @@ Primitive types are the basic data types that represent simple values.
 - **Null**: Represents an explicitly empty value, useful for intentional absence of any object value.
 
 - **Undefined**: Represents an uninitialized value, indicating that a variable has been declared but not assigned a value.
+
+
+
 
 
 
