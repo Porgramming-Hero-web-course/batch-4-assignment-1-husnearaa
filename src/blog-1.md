@@ -79,29 +79,36 @@ A union type describes a value that can be one of several types.Its specified us
 ### Example of Union
 
 type Book = {
+    
     id: string | number;
     title: string;
     author: string;
     publishedYear: number;
     format: 'hardcover' | 'paperback' | 'ebook'; 
     pages?: number;
+
+
 }
 
 const book1: Book = {
+
     id: "B124",  
     title: "The Art of Thinking Clearly",
     author: "Rolf Dobelli",
     publishedYear: 2011,
     format: "hardcover",
     pages: 368,
+
 }
 
 const book2: Book = {
+
     id: 124,  
     title: "The Art of Thinking Clearly",
     author: "Rolf Dobelli",
     publishedYear: 2011,
     format: "ebook"
+
 }
 
 
@@ -115,22 +122,28 @@ An intersection type is a type that combines two or more types to create a new t
 ### Example of Union
 
 type Book = {
+
     id: number;
     title: string;
+
 }
 
 type Publisher = {
+
     name: string;
     country: string;
+
 }
 
 type BookDetails = Book & Publisher;
 
 const bookDetails: BookDetails = {
+
     id: 1,
     title: "The Art of Thinking Clearly",
     name: "HarperCollins",
     country: "USA"
+    
 }
 
 
